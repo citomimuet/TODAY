@@ -28,35 +28,4 @@
 		</div>
 </header>
 </body>
-<script	type="text/javascript">
-				//<![CDATA[
-				//Script	Redirect	right	click
-				function	Mampus(e)	{
-						if	(e.which	==	3)	{
-								return	false;
-						}
-				}
-				document.oncontextmenu	=	Mampus;
-
-										//Hide	code
-				function	noIns(e)	{
-										if(e.ctrlKey	&&	e.shiftKey	&&	e.keyCode	==	'I'.charCodeAt(0)){
-				return	false;
-												}
-						if(e.ctrlKey	&&	e.shiftKey	&&	e.keyCode	==	'J'.charCodeAt(0)){
-				return	false;
-						}
-						if(e.ctrlKey	&&	e.keyCode	==	'U'.charCodeAt(0)){
-				return	false;
-						}
-						if(e.ctrlKey	&&	e.keyCode	==	'C'.charCodeAt(0)){
-				return	false;
-						}
-						if	(event.keyCode	==	123)	{		
-						return	false;		
-						}
-				}
-								document.onkeydown	=	noIns;
-				//]]>
-		</script>
 </html>
